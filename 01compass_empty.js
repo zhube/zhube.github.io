@@ -7,8 +7,25 @@ oriented = function(e) {
         }   else  { 
             compassHeading = e.alpha;
         }
+
+        if(compassHeading > 315 || compassHeading < 45) {
+                text_area.textContent = "light";
+        }
+
+        if(compassHeading >= 45 && compassHeading < 135) {
+                text_area.textContent = "dawn";
+        }
+
+        if(compassHeading >= 135 && compassHeading < 225) {
+                text_area.textContent = "earth";
+        }
+
+        if(compassHeading >= 225 && compassHeading < 315) {
+                text_area.textContent = "new beggining";
+        }
+
         
-         text_area.textContent = compassHeading;
+         //text_area.textContent = compassHeading;
         //calls function to alter content based on heading
        // myOrientation();
     }
