@@ -9,19 +9,19 @@ oriented = function(e) {
         }
 
         if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = "light <br> hope";
+                text_area.innerHTML = "light <br/> hope";
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "dawn <br> peace";
+                text_area.innerHTML = "dawn <br/> peace";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "earth <br> security";
+                text_area.innerHTML = "earth <br/> security";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "new <br> beggining";
+                text_area.innerHTML = "new <br/> beginning";
         }
 
         
