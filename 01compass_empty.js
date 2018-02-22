@@ -9,15 +9,15 @@ oriented = function(e) {
         }
 
         if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = "light";
+                text_area.textContent = "light and hope";
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "dawn";
+                text_area.textContent = "dawn and peace";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "earth";
+                text_area.textContent = "earth and security";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
